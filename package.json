@@ -1,0 +1,30 @@
+{
+  "name": "excel-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack",
+		"build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artkad/excel.git"
+  },
+  "keywords": [
+    "js",
+    "execl"
+  ],
+  "author": "art",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artkad/excel/issues"
+  },
+  "homepage": "https://github.com/artkad/excel#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
